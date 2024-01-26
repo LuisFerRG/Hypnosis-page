@@ -1,3 +1,38 @@
-body {
-  margin: 0;
+.button {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #eee;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.twitter {
+  background-color: #fff;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.facebook {
+  background-color: #fff;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.instagram {
+  background-color: #fff;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.linkedin {
+  background-color: #fff;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
 }
