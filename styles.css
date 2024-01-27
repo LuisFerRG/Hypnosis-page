@@ -38,6 +38,15 @@
   align-items: center;
 }
 
+.a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
 .header .li {
   margin: 0 0.5em;
 }
@@ -90,7 +99,8 @@
 }
 
 .content-1 {
-  margin: 0 1440px;
+  width: 1280px;
+  height: 852px;
 }
 
 .content-1 .article {
