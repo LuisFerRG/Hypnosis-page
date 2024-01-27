@@ -9,26 +9,43 @@
   flex-flow: row wrap;
   align-items: center;
   width: 1440px;
-  padding: 0 3rem;
 }
 
 .header {
   width: 1440px;
   background-color: #fff;
-  padding: 5rem;
+  padding:  1.5rem 0rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   color: #000;
+  border-bottom: 1px solid #000;
 }
 
-.header .h1 {
+.h1 {
   background-color: #fff;
+  margin: 0rem 5rem; 
+  text-decoration: none;
+  padding: 24px 24px;
+  display: flex;
+}
+
+.h1 a {
+  text-decoration: none;
+  font-family: Inter;
+font-size: 7px;
+font-weight: 600;
+line-height: 8px;
+letter-spacing: 0em;
+text-align: left;
+color: #000;
 }
 
 .header .navbar {
   background-color: #fff;
+  margin-right: 2rem;
+  margin-left: 3rem;
 }
 
 .header .ul {
@@ -38,9 +55,11 @@
   align-items: center;
 }
 
+
 .a {
   text-decoration: none;
   color: #000;
+  padding: 1.8em;
 }
 
 ul {
@@ -51,8 +70,16 @@ ul {
   margin: 0 0.5em;
 }
 
+.header .search-button{
+ border: 1px solid #ccc;
+ padding: 8px 12px;
+ border-radius: 20px;
+ margin-left: 0;
+}
+
 .header .search {
   background-color: #fff;
+  border: #fff;
 }
 
 .title-and-social {
@@ -63,7 +90,16 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Inter;
+font-size: 90px;
+font-weight: 600;
+line-height: 143px;
+letter-spacing: 0em;
+text-align: left;
+padding: 3rem;
+
 }
+
 
 .profile {
   display: flex;
@@ -75,7 +111,34 @@ ul {
 
 .profile-header {
   display: flex;
+  width: 195px;
+  height: 46px;
+  
 }
+
+.name {
+align-items: center;
+}
+
+.name p1 {
+  font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+ }
+
+ .name p2 {
+  font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #666;
+ }
+
 
 .button {
   display: inline-block;
