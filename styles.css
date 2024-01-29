@@ -355,7 +355,6 @@ ul {
 
 .content-4 {
   width: 100%;
-  max-width: 1440px;
   min-height: 1405px;
   margin: 5rem 0;
   background-color: #222;
@@ -364,6 +363,7 @@ ul {
 
 .content-4 .article {
   align-items: center;
+  max-width: 1440px;
 }
 
 .content-4 .section-content-4-1 {
