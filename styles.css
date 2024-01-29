@@ -505,9 +505,10 @@ ul {
 
 .content-4 .section-content-4-4 {
   width: 100%;
-  max-width: 410px;
+  max-width: 430px;
   margin: 0;
-  padding: 4rem 2rem;
+  padding: 4rem 0;
+  padding-left: 2.8rem;
   border-left: 1px solid #fff;
   border-right: 1px solid #fff;
 }
