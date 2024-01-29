@@ -1,6 +1,6 @@
 * {
   margin: 0 auto;
-  max-width: 1440px;
+  box-sizing: border-box;
 }
 
 .container {
@@ -8,7 +8,8 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
 }
 
 .header {
@@ -16,7 +17,8 @@
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   background-color: #fff;
   border-bottom: 1px solid #000;
   color: #000;
@@ -74,6 +76,7 @@ ul {
   border-radius: 20px;
   padding: 8px 12px;
   margin-left: 0;
+  margin-right: 4rem;
 }
 
 .header .search {
@@ -82,14 +85,16 @@ ul {
 }
 
 .title-and-social {
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
 }
 
 .title {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1181px;
+  width: 100%;
+  max-width: 1440px;
   font-family: Inter, sans-serif;
   font-size: 77.9px;
   font-weight: 600;
@@ -174,9 +179,13 @@ ul {
 }
 
 .content-1 {
-  width: 1280px;
-  height: 900px;
+  width: 100%;
+  max-width: 1440px;
   padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .content-1 .article {
@@ -211,11 +220,12 @@ ul {
 }
 
 .content-2 {
-  width: 1180px;
-  height: 1067px;
+  width: 100%;
+ max-width: 1440px;
+  padding: 4rem 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  padding: 7rem;
 }
 
 .content-2 .article {
@@ -291,24 +301,30 @@ ul {
 }
 
 .content-3 {
-  width: 1180px;
-  height: 1134px;
+  width: 100%;
+  max-width: 1180px;
+  padding-top:  4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   align-items: center;
   border-bottom: 1px solid #000;
 }
 
 .content-3 .article {
-  width: 777px;
-  height: 313px;
+  width: 100%;
+  max-width: 777px;
   padding: 3rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .content-3 i {
   font-size: 30px;
   padding-bottom: 1rem;
+  align-items: center;
 }
 
 .content-3 .h3 {
@@ -340,8 +356,9 @@ ul {
 }
 
 .content-4 {
-  width: 1440px;
-  height: 1405px;
+  width: 100%;
+  max-width: 1440px;
+  min-height: 1405px;
   margin: 5rem 0;
   background-color: #222;
   color: #fff;
@@ -451,11 +468,11 @@ ul {
 }
 
 .content-4 .section-group {
-  width: 1180px;
-  height: 600px;
+  width: 100%;
+  max-width: 1440px;
+  max-height: 600px;
   display: flex;
   justify-content: space-between;
-  padding: 0 8rem;
   border-bottom: 1px solid #fff;
   border-top: 1px solid #fff;
 }
@@ -481,24 +498,26 @@ ul {
 }
 
 .content-4 .section-content-4-3 {
-  width: 340px;
-  height: 467px;
+  width: 100%;
+  max-width: 340px;
   margin: 0;
   padding: 4rem 0;
+  margin-left: 8rem;
 }
 
 .content-4 .section-content-4-4 {
-  width: 340px;
-  height: 472px;
+  width: 100%;
+  max-width: 410px;
   margin: 0;
-  padding: 4rem 2.5rem;
+  padding: 4rem 2rem;
   border-left: 1px solid #fff;
   border-right: 1px solid #fff;
 }
 
 .content-4 .section-content-4-5 {
-  width: 340px;
-  height: 504px;
+  width: 100%;
+  max-width: 340px;
   margin: 0;
   padding: 4rem 0;
+  margin-right: 8rem;
 }
