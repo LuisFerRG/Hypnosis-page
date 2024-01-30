@@ -520,3 +520,63 @@ ul {
   padding: 4rem 0;
   margin-right: 8rem;
 }
+
+.newsletter-form {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.newsletter-form h2 {
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.newsletter-form .p1 {
+  padding: 2rem 0;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.newsletter-form .p2 {
+  padding: 2rem 0;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.newsletter-form .input {
+  display: flex;
+  border: 1px solid #000;
+  padding: 4px 0;
+}
+
+.email-address {
+  width: 621px;
+  height: 40px;
+  border: none;
+}
+
+.submit {
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
