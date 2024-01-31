@@ -357,7 +357,7 @@ ul {
   width: 100%;
   min-height: 1405px;
   margin: 5rem 0;
-  background-color: #222;
+  background-color: #161616;
   color: #fff;
 }
 
@@ -582,7 +582,7 @@ ul {
 }
 
 .footer {
-  background-color: #ccc;
+  background-color: #f1f1f1;
   padding: 4rem 0;
   width: 100%;
   display: flex;
@@ -655,8 +655,9 @@ ul {
 }
 
 .social-media-1 a {
-  background-color: #ccc;
+  background-color: #f1f1f1;
   font-size: 20px;
+  border: #f1f1f1;
 }
 
 .information-2 a {
