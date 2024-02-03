@@ -34,6 +34,12 @@
   margin: 0 5rem;
   padding: 24px 24px;
   text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
 }
 
 .h1 a {
@@ -823,13 +829,19 @@ ul {
   }
 
   .header {
-    padding: 0.3rem 0;
+    width: 100%;
     max-width: 428px;
+    padding: 0 1.3rem;
+  }
+
+  .header .h1 {
+    margin: 0;
   }
 
   .header i {
     display: block;
     font-size: 20px;
+    margin: 0;
   }
 
   .header .navbar {
