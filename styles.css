@@ -1251,13 +1251,19 @@ ul {
     color: #c2c2c2;
   }
 
+  .see-all-1 {
+    width: 100%;
+    max-width: 428px;
+    height: auto;
+    margin: 0;
+    padding: 1.3rem 1rem;
+  }
+
   .content-4 .see-all {
     display: block;
     width: 100%;
     max-width: 388px;
     min-height: 56px;
-    padding: 0;
-    margin: 1.3rem auto;
     font-family: Inter, sans-serif;
     font-size: 20px;
     font-weight: 500;
