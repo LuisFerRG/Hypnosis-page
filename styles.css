@@ -203,6 +203,7 @@ ul {
 .content-1 .img-1 {
   width: 100%;
   height: auto;
+  max-width: 1280px;
 }
 
 .content-1 .img-2 {
@@ -784,7 +785,7 @@ ul {
 }
 
 .social-media-1 {
-  padding-left: 15rem;
+  padding-left: 13rem;
 }
 
 .social-media-1 a {
